@@ -96,4 +96,6 @@ def scrape():
 
     return mars_facts_data
 
-scrape()
+
+if __name__ == "__main__":
+    print(scrape())
